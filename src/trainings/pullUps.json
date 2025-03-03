@@ -1,0 +1,149 @@
+{
+    "Pull-Ups Training": [
+      {
+        "type": "Pull-Ups Training",
+        "name": "Standard Pull-Up",
+        "description": "Grip the bar with palms facing away and pull your chin over the bar.",
+        "complexity": 5
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Chin-Up",
+        "description": "Grip the bar with palms facing toward you and pull up.",
+        "complexity": 5
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Wide-Grip Pull-Up",
+        "description": "Perform a pull-up with a wider-than-shoulder grip for more lat activation.",
+        "complexity": 6
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Close-Grip Pull-Up",
+        "description": "Perform a pull-up with hands close together for more biceps engagement.",
+        "complexity": 6
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Archer Pull-Up",
+        "description": "Pull more with one arm while extending the other outward.",
+        "complexity": 7
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Commando Pull-Up",
+        "description": "Grip the bar with hands facing each other and pull your head to one side.",
+        "complexity": 6
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Explosive Pull-Up",
+        "description": "Pull yourself up quickly and explosively, optionally releasing the bar briefly.",
+        "complexity": 7
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "L-Sit Pull-Up",
+        "description": "Perform a pull-up while keeping your legs extended at a 90-degree angle.",
+        "complexity": 7
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Typewriter Pull-Up",
+        "description": "Pull yourself up and shift side to side at the top.",
+        "complexity": 8
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "One-Arm Assisted Pull-Up",
+        "description": "Use one arm more than the other to work toward a full one-arm pull-up.",
+        "complexity": 8
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "One-Arm Pull-Up",
+        "description": "Perform a pull-up using only one arm for advanced strength training.",
+        "complexity": 10
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Negative Pull-Up",
+        "description": "Jump to the top position and slowly lower yourself for eccentric strength.",
+        "complexity": 5
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Behind-the-Neck Pull-Up",
+        "description": "Pull up with the bar behind your head, emphasizing shoulder mobility.",
+        "complexity": 7
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Towel Pull-Up",
+        "description": "Grip a towel over the bar for added grip strength work.",
+        "complexity": 7
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Front Lever Pull-Up",
+        "description": "Perform a pull-up while keeping your body horizontal.",
+        "complexity": 10
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Jumping Pull-Up",
+        "description": "Use a jump to assist the pull-up, helping build strength.",
+        "complexity": 3
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Isometric Hold Pull-Up",
+        "description": "Hold the top or middle position of a pull-up for time.",
+        "complexity": 6
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Superman Pull-Up",
+        "description": "Pull explosively and extend your body forward at the top.",
+        "complexity": 9
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Wall Pull",
+        "description": "Lie on the floor under a sturdy table or bar and pull your chest up.",
+        "complexity": 3
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Inverted Rows",
+        "description": "Hold onto a low bar or table and pull your chest towards it while keeping your body straight.",
+        "complexity": 4
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Table Rows",
+        "description": "Lie under a sturdy table and pull your chest up towards it.",
+        "complexity": 3
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Bridge Pull",
+        "description": "Lie on the ground, lift your hips, and pull yourself forward using your arms.",
+        "complexity": 4
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Superman Back Extension",
+        "description": "Lie on your stomach and lift your arms and legs off the ground.",
+        "complexity": 3
+      },
+      {
+        "type": "Pull-Ups Training",
+        "name": "Hollow Body Pull Simulation",
+        "description": "Lie on the ground in a hollow body position and pull your arms down as if mimicking a pull-up motion.",
+        "complexity": 3
+      }
+    ]
+  }
+  

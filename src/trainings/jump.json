@@ -1,0 +1,148 @@
+{
+  "Jump Training": [
+    {
+      "type": "Jump Training",
+      "name": "Jump Squats",
+      "description": "Explosive squat with a jump at the top.",
+      "complexity": 4
+    },
+    {
+      "type": "Jump Training",
+      "name": "Broad Jumps",
+      "description": "Jump forward as far as possible from a standing position.",
+      "complexity": 5
+    },
+    {
+      "type": "Jump Training",
+      "name": "Tuck Jumps",
+      "description": "Jump high and bring knees towards the chest.",
+      "complexity": 7
+    },
+    {
+      "type": "Jump Training",
+      "name": "Lateral Jumps",
+      "description": "Jump side to side over an imaginary line to improve lateral explosiveness.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Single-Leg Hops",
+      "description": "Jump on one leg repeatedly to develop balance and lower body strength.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Split Jumps",
+      "description": "Jump from a lunge position and switch legs mid-air.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Star Jumps",
+      "description": "Jump while extending arms and legs out like a star.",
+      "complexity": 5
+    },
+    {
+      "type": "Jump Training",
+      "name": "Depth Jumps",
+      "description": "Step off a low platform and immediately jump explosively upon landing.",
+      "complexity": 7
+    },
+    {
+      "type": "Jump Training",
+      "name": "Skater Jumps",
+      "description": "Jump side to side in a speed-skater motion to build lateral power.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Kangaroo Jumps",
+      "description": "Perform continuous forward jumps while keeping knees slightly bent.",
+      "complexity": 4
+    },
+    {
+      "type": "Jump Training",
+      "name": "Ankle Hops",
+      "description": "Bounce lightly off the ground using only your ankles for quick plyometric response.",
+      "complexity": 3
+    },
+    {
+      "type": "Jump Training",
+      "name": "Seated Jumps",
+      "description": "Sit down, then explosively jump up as high as possible.",
+      "complexity": 5
+    },
+    {
+      "type": "Jump Training",
+      "name": "Squat to Broad Jump",
+      "description": "Perform a squat, then explode forward into a broad jump.",
+      "complexity": 6
+    },
+    {
+      "type": "Jump Training",
+      "name": "Pogo Jumps",
+      "description": "Jump continuously using primarily ankle power and minimal knee bend.",
+      "complexity": 4
+    },
+    {
+      "type": "Jump Training",
+      "name": "Knee Drive Jumps",
+      "description": "Jump explosively while driving one knee toward the chest.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Drop Squat Jumps",
+      "description": "Start standing, drop into a squat, then jump explosively upward.",
+      "complexity": 5
+    },
+    {
+      "type": "Jump Training",
+      "name": "Rebound Jumps",
+      "description": "Perform repeated jumps with minimal ground contact for improved reactivity.",
+      "complexity": 6
+    },
+    {
+      "type": "Jump Training",
+      "name": "Leg Swings",
+      "description": "Swing one leg forward and backward to loosen hip flexors and hamstrings.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Butt Kicks",
+      "description": "Run in place while kicking your heels toward your glutes.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "High Knees",
+      "description": "Run in place while bringing your knees up to waist level.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Lateral Leg Swings",
+      "description": "Swing one leg side to side to loosen up the hip joints.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Jump Training",
+      "name": "Arm Circles",
+      "description": "Rotate your arms forward and backward to activate shoulders before jumping.",
+      "complexity": 1,
+      "warming_up": true
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+    "Neck Training": [
+      {
+        "type": "Neck Training",
+        "name": "Neck Bridges",
+        "description": "Lie on your back and lift your head off the ground, supporting your weight with your neck.",
+        "complexity": 7
+      },
+      {
+        "type": "Neck Training",
+        "name": "Wrestler's Neck Bridge",
+        "description": "Roll onto the top of your head and hold the position to strengthen the neck.",
+        "complexity": 8
+      },
+      {
+        "type": "Neck Training",
+        "name": "Chin Tucks",
+        "description": "Tuck your chin toward your chest to engage the deep neck flexors.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Isometric Neck Holds",
+        "description": "Press your hand against your head and resist movement in different directions.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Side-to-Side Neck Tilts",
+        "description": "Tilt your head from side to side, stretching the lateral neck muscles.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Flexion & Extension",
+        "description": "Move your head forward and backward slowly to activate neck muscles.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Rotations",
+        "description": "Turn your head left and right to increase mobility.",
+        "complexity": 2,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Retractions",
+        "description": "Pull your head straight back while keeping your chin level to strengthen the deep neck muscles.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Wall Neck Press",
+        "description": "Stand with your back against a wall and press your head back for isometric engagement.",
+        "complexity": 4
+      },
+      {
+        "type": "Neck Training",
+        "name": "Prone Neck Extensions",
+        "description": "Lie face down and lift your head up while keeping the rest of the body relaxed.",
+        "complexity": 4
+      },
+      {
+        "type": "Neck Training",
+        "name": "Seated Neck Resistance",
+        "description": "Use your hand to provide resistance as you move your head in different directions.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Isometric Side Press",
+        "description": "Press the side of your head against your hand without moving.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Lying Neck Lifts",
+        "description": "Lie on your back and lift your head slightly off the ground, holding for time.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Clock Drill",
+        "description": "Move your head in a circular motion as if following a clock face.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Head Circles",
+        "description": "Rotate your head in a circular motion to improve neck mobility.",
+        "complexity": 2
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Side Lying Raises",
+        "description": "Lie on your side and lift your head up slowly to strengthen lateral neck muscles.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Front Neck Isometric Hold",
+        "description": "Press your forehead against your hand while resisting the movement.",
+        "complexity": 4
+      },
+      {
+        "type": "Neck Training",
+        "name": "Rear Neck Isometric Hold",
+        "description": "Press the back of your head against your hand while resisting the movement.",
+        "complexity": 4
+      },
+      {
+        "type": "Neck Training",
+        "name": "Shoulder Shrugs",
+        "description": "Lift and lower your shoulders to strengthen neck-supporting muscles.",
+        "complexity": 2
+      },
+      {
+        "type": "Neck Training",
+        "name": "Upper Trap Stretch",
+        "description": "Tilt your head to one side while holding the opposite shoulder down.",
+        "complexity": 2,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Jaw Relaxation Drill",
+        "description": "Gently open and close your mouth to relieve tension in the jaw and neck.",
+        "complexity": 1
+      },
+      {
+        "type": "Neck Training",
+        "name": "Towel Neck Resistance",
+        "description": "Wrap a towel behind your head and press against it for isometric strength.",
+        "complexity": 5
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Lateral Band Resistance",
+        "description": "Use a resistance band for added difficulty while performing lateral neck movements.",
+        "complexity": 6,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Chin to Chest Stretch",
+        "description": "Slowly lower your chin toward your chest to stretch the back of your neck.",
+        "complexity": 2
+      },
+      {
+        "type": "Neck Training",
+        "name": "Tennis Ball Neck Release",
+        "description": "Lie on a tennis ball and move your neck slightly to release tension.",
+        "complexity": 2
+      },
+      {
+        "type": "Neck Training",
+        "name": "Forward Head Posture Correction",
+        "description": "Strengthen neck muscles by pulling the head back into alignment.",
+        "complexity": 4
+      },
+      {
+        "type": "Neck Training",
+        "name": "Scalene Stretch",
+        "description": "Tilt your head to one side and slightly rotate to stretch the scalene muscles.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Waves",
+        "description": "Move your head in a fluid, wave-like motion to improve mobility.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Forward Reach",
+        "description": "Extend your neck forward and return to neutral, activating deep neck flexors.",
+        "complexity": 3
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Activation with Resistance",
+        "description": "Use light hand pressure to resist gentle forward, backward, and lateral neck movements.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Shoulder Rolls",
+        "description": "Roll your shoulders forward and backward to warm up the upper body.",
+        "complexity": 1,
+        "warming_up": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Gentle Head Tilts",
+        "description": "Tilt your head from side to side slowly for a gentle warm-up.",
+        "complexity": 1,
+        "warming_up": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Nose-to-Collarbone Stretch",
+        "description": "Turn your head diagonally downward to stretch the back of your neck.",
+        "complexity": 2,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Neck Joint Rotations",
+        "description": "Move your head in slow circles to increase neck mobility.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Neck Training",
+        "name": "Jaw & Neck Relaxation Drill",
+        "description": "Massage your jaw and neck to release tension before training.",
+        "complexity": 1,
+        "warming_up": true
+      }
+    ]
+  }
+  

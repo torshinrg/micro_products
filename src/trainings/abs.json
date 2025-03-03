@@ -1,0 +1,119 @@
+{
+    "ABS training": [
+      {
+        "type": "ABS training",
+        "name": "Basic Crunches",
+        "description": "Lie on your back, lift your shoulders off the floor, and engage your core.",
+        "complexity": 2
+      },
+      {
+        "type": "ABS training",
+        "name": "Bicycle Crunches",
+        "description": "Alternate touching opposite elbow to knee while engaging the core.",
+        "complexity": 3
+      },
+      {
+        "type": "ABS training",
+        "name": "Leg Raises",
+        "description": "Lie on your back and lift your legs up while keeping them straight.",
+        "complexity": 4
+      },
+      {
+        "type": "ABS training",
+        "name": "Russian Twists",
+        "description": "Sit on the floor, lean back slightly, and twist your torso side to side.",
+        "complexity": 5
+      },
+      {
+        "type": "ABS training",
+        "name": "Reverse Crunches",
+        "description": "Lie on your back, lift your legs, and curl your hips off the ground.",
+        "complexity": 3
+      },
+      {
+        "type": "ABS training",
+        "name": "Plank",
+        "description": "Hold a push-up position with your forearms on the ground, keeping the body straight.",
+        "complexity": 3
+      },
+      {
+        "type": "ABS training",
+        "name": "Side Plank",
+        "description": "Lie on your side and lift your body off the ground, supporting yourself with one arm.",
+        "complexity": 4
+      },
+      {
+        "type": "ABS training",
+        "name": "Plank to Push-Up",
+        "description": "Start in a forearm plank, push up to your hands, then return to the forearm plank.",
+        "complexity": 5
+      },
+      {
+        "type": "ABS training",
+        "name": "V-Ups",
+        "description": "Lie on your back and simultaneously lift your arms and legs towards each other.",
+        "complexity": 6
+      },
+      {
+        "type": "ABS training",
+        "name": "Flutter Kicks",
+        "description": "Lie on your back and alternate small, fast kicks with your legs slightly above the ground.",
+        "complexity": 4
+      },
+      {
+        "type": "ABS training",
+        "name": "Scissor Kicks",
+        "description": "Lie on your back and cross your legs over each other in a controlled motion.",
+        "complexity": 5
+      },
+      {
+        "type": "ABS training",
+        "name": "Toe Touches",
+        "description": "Lie on your back, extend your legs up, and reach for your toes with your hands.",
+        "complexity": 4
+      },
+      {
+        "type": "ABS training",
+        "name": "Mountain Climbers",
+        "description": "In a plank position, quickly alternate bringing knees towards the chest.",
+        "complexity": 5
+      },
+      {
+        "type": "ABS training",
+        "name": "Dead Bug",
+        "description": "Lie on your back with arms and legs raised, lowering opposite arm and leg simultaneously.",
+        "complexity": 3
+      },
+      {
+        "type": "ABS training",
+        "name": "Superman Hold",
+        "description": "Lie on your stomach and lift your arms and legs off the ground, holding the position.",
+        "complexity": 4
+      },
+      {
+        "type": "ABS training",
+        "name": "Dragon Flag Progression",
+        "description": "Lie on your back, lift your entire lower body while keeping it straight, then lower slowly.",
+        "complexity": 7
+      },
+      {
+        "type": "ABS training",
+        "name": "Hollow Body Hold",
+        "description": "Lie on your back, lift your arms and legs slightly off the ground, keeping core engaged.",
+        "complexity": 5
+      },
+      {
+        "type": "ABS training",
+        "name": "Hollow Body Rocks",
+        "description": "Hold a hollow body position and gently rock forward and backward.",
+        "complexity": 6
+      },
+      {
+        "type": "ABS training",
+        "name": "L-Sit (Floor)",
+        "description": "Sit on the floor with legs extended and lift them off the ground using core strength.",
+        "complexity": 7
+      }
+    ]
+  }
+  

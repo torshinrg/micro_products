@@ -1,0 +1,152 @@
+{
+  "Split training": [
+    {
+      "type": "Split training",
+      "name": "Seated Forward Fold",
+      "description": "Sit with legs extended and reach towards your feet.",
+      "complexity": 3
+    },
+    {
+      "type": "Split training",
+      "name": "Half Split Stretch",
+      "description": "One leg extended, one leg bent; lean forward for a deep stretch.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Full Front Split",
+      "description": "Gradually slide into a full front split.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Frog Stretch",
+      "description": "Knees wide apart, sit back to stretch the inner thighs.",
+      "complexity": 5
+    },
+    {
+      "type": "Split training",
+      "name": "Butterfly Stretch",
+      "description": "Sit with the soles of your feet together and press your knees towards the ground.",
+      "complexity": 3
+    },
+    {
+      "type": "Split training",
+      "name": "Lying Straddle Stretch",
+      "description": "Lie on your back and extend your legs wide, letting gravity stretch them.",
+      "complexity": 4
+    },
+    {
+      "type": "Split training",
+      "name": "Standing Side Lunge Stretch",
+      "description": "Lean to one side while keeping the other leg extended for an inner thigh stretch.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Seated Straddle Stretch",
+      "description": "Sit with your legs wide apart and lean forward for a deep hamstring and hip stretch.",
+      "complexity": 5
+    },
+    {
+      "type": "Split training",
+      "name": "Wall Straddle Stretch",
+      "description": "Lie on your back against a wall and let your legs gradually slide into a straddle split.",
+      "complexity": 6
+    },
+    {
+      "type": "Split training",
+      "name": "Deep Lunge Stretch",
+      "description": "Step one foot forward and sink into a deep lunge to open up the hip flexors.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Pigeon Pose",
+      "description": "Bring one leg forward and extend the other backward to stretch the hips and glutes.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Standing Forward Fold",
+      "description": "Stand and fold forward, reaching for your toes while keeping legs straight.",
+      "complexity": 3
+    },
+    {
+      "type": "Split training",
+      "name": "Side Split (Middle Split)",
+      "description": "Gradually slide both legs apart until achieving a full side split.",
+      "complexity": 9
+    },
+    {
+      "type": "Split training",
+      "name": "Elevated Front Split",
+      "description": "Place your front leg on an elevated surface and stretch deeper into the front split.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Active Split Hold",
+      "description": "Engage muscles to hold a split position without relying on the ground for support.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Dynamic Front Split Pulses",
+      "description": "Move gently in and out of a front split position to increase flexibility dynamically.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Wall-Assisted Front Split",
+      "description": "Use a wall to support and deepen your front split stretch.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Leg Swings",
+      "description": "Swing one leg forward and backward to loosen up the hip flexors.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Hip Circles",
+      "description": "Stand and move your hips in circular motions to increase mobility.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Split training",
+      "name": "Butt Kicks",
+      "description": "Run in place while kicking your heels toward your glutes.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Split training",
+      "name": "Lateral Leg Swings",
+      "description": "Swing one leg side to side to loosen up the hip joints.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Split training",
+      "name": "Cat-Cow Stretch",
+      "description": "Arch and round your back to mobilize the spine before stretching.",
+      "complexity": 2,
+      "warming_up": true
+    }
+  ]
+}

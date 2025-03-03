@@ -1,0 +1,200 @@
+{
+    "Hip Mobility & Flexibility": [
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "90/90 Hip Stretch",
+        "description": "Sit with both legs bent at 90-degree angles and lean forward to stretch the hips.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Standing Hip Circles",
+        "description": "Lift one leg and move it in circular motions to mobilize the hip joint.",
+        "complexity": 2,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Deep Frog Pose",
+        "description": "Spread knees wide apart and sit back to stretch the inner thighs and hips.",
+        "complexity": 5
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Hip Flexor Stretch",
+        "description": "Step into a lunge position and push your hips forward to stretch the hip flexors.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Glute Bridges",
+        "description": "Lie on your back, lift your hips, and squeeze the glutes at the top.",
+        "complexity": 3
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Pancake Stretch",
+        "description": "Sit with legs wide apart and lean forward to stretch the hips and hamstrings.",
+        "complexity": 5
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Butterfly Stretch",
+        "description": "Sit with the soles of your feet together and press your knees towards the ground.",
+        "complexity": 3
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Lying Hip Rotations",
+        "description": "Lie on your back, bend your knees, and drop them side to side to mobilize the hips.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Seated Straddle Stretch",
+        "description": "Sit with legs wide apart and lean forward to stretch the inner thighs and hips.",
+        "complexity": 4
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Standing Knee to Chest",
+        "description": "Stand and pull one knee towards your chest to activate hip flexors.",
+        "complexity": 2,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Standing Hip Openers",
+        "description": "Lift one knee and rotate it outward in a controlled motion.",
+        "complexity": 3,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Wall-Assisted Hip Stretch",
+        "description": "Lie on your back with your legs against a wall and slowly let them widen.",
+        "complexity": 4
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Couch Stretch",
+        "description": "Place one foot on a couch or wall behind you and lower into a deep hip flexor stretch.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Seated Piriformis Stretch",
+        "description": "Cross one ankle over the opposite knee and lean forward to stretch the hip.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Dynamic Lunge to Hamstring Stretch",
+        "description": "Move between a deep lunge and a hamstring stretch dynamically.",
+        "complexity": 5,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Cossack Squat Stretch",
+        "description": "Shift your weight side to side into a deep lateral squat.",
+        "complexity": 6,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Lying Figure-Four Stretch",
+        "description": "Lie on your back, cross one ankle over the opposite knee, and pull towards your chest.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Pigeon Pose",
+        "description": "Bring one leg forward and extend the other backward to stretch the hips and glutes.",
+        "complexity": 6,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Hurdler Stretch",
+        "description": "Sit with one leg extended and the other bent back to stretch the hips and quads.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Bear Sit Stretch",
+        "description": "Sit with knees bent and feet flat, pressing knees outward for a deep hip opening.",
+        "complexity": 3
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Quadruped Hip CARs",
+        "description": "On all fours, move one knee in a controlled circular motion.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Deep Squat Hold",
+        "description": "Sit in a deep squat position to stretch and strengthen hip mobility.",
+        "complexity": 5
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Fire Hydrant Circles",
+        "description": "On all fours, lift your leg to the side and rotate in circles.",
+        "complexity": 4,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Frog Rockbacks",
+        "description": "Sit in a frog stretch position and gently rock forward and back.",
+        "complexity": 4,
+        "warming_up": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Reverse Lunge with Reach",
+        "description": "Step into a reverse lunge while reaching overhead to stretch the hip flexors.",
+        "complexity": 4,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Standing Lateral Leg Swings",
+        "description": "Swing one leg side to side to loosen up the hip joints.",
+        "complexity": 2,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Cat-Cow Stretch",
+        "description": "Arch and round your back to mobilize the spine and hips.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Hip Mobility & Flexibility",
+        "name": "Hip Flexor Pulse Stretch",
+        "description": "Hold a deep lunge position and pulse gently to increase range of motion.",
+        "complexity": 3,
+        "warming_up": true,
+        "double": true
+      }
+    ]
+  }
+  

@@ -1,0 +1,175 @@
+{
+  "Knee strengthening training": [
+    {
+      "type": "Knee strengthening training",
+      "name": "Wall Sits",
+      "description": "Sit against a wall at a 90-degree angle, holding for time.",
+      "complexity": 4
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Step-Ups",
+      "description": "Step onto an elevated surface and back down repeatedly.",
+      "complexity": 3,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Single-Leg Balance",
+      "description": "Stand on one leg to improve knee stability.",
+      "complexity": 2,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Pistol Squats",
+      "description": "Squat down on one leg while keeping the other extended.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Partial Squats",
+      "description": "Perform a squat but stop halfway before returning to a standing position.",
+      "complexity": 3
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Straight Leg Raises",
+      "description": "Lie on your back and lift one leg straight up, holding for time.",
+      "complexity": 2,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Lunges",
+      "description": "Step forward and lower your back knee towards the ground in a controlled motion.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Reverse Lunges",
+      "description": "Step backward into a lunge position to strengthen knee stability.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Glute Bridge",
+      "description": "Lie on your back with knees bent, lifting your hips to engage the posterior chain.",
+      "complexity": 3
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Calf Raises",
+      "description": "Rise onto your toes and slowly lower to strengthen lower leg muscles supporting the knee.",
+      "complexity": 2
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Heel Walks",
+      "description": "Walk on your heels with toes lifted to activate stabilizing muscles.",
+      "complexity": 3
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Toe Walks",
+      "description": "Walk on your toes to strengthen lower leg and knee stabilizers.",
+      "complexity": 3
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Seated Leg Extensions",
+      "description": "Sit and extend your leg straight out, holding briefly before lowering.",
+      "complexity": 2,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Terminal Knee Extensions",
+      "description": "Stand and slightly bend your knee, then extend it fully, engaging the quads.",
+      "complexity": 3,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Step-Through Lunges",
+      "description": "Step forward into a lunge, then step backward into a reverse lunge without pausing.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Cossack Squat",
+      "description": "Shift your weight side to side into a deep lateral squat to improve knee mobility.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Shrimp Squats",
+      "description": "Hold one foot behind you while lowering into a controlled single-leg squat.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Standing Quad Stretch",
+      "description": "Stand on one leg and pull the other foot towards your glutes to stretch the quadriceps.",
+      "complexity": 2,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Hamstring Curls (No Equipment)",
+      "description": "Lie on your stomach and slowly curl your leg up, engaging the hamstrings.",
+      "complexity": 3,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Deep Squat Hold",
+      "description": "Hold a deep squat position while maintaining balance and proper posture.",
+      "complexity": 5
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Leg Swings",
+      "description": "Swing one leg forward and backward to loosen up the hip flexors.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Butt Kicks",
+      "description": "Run in place while kicking your heels toward your glutes.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "High Knees",
+      "description": "Run in place while bringing your knees up to waist level.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Lateral Leg Swings",
+      "description": "Swing one leg side to side to loosen up the hip joints.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Knee strengthening training",
+      "name": "Ankle Circles",
+      "description": "Rotate your ankle in circles to increase mobility and activate stabilizers.",
+      "complexity": 1,
+      "warming_up": true,
+      "double": true
+    }
+  ]
+}

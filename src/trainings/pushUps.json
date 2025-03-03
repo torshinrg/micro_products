@@ -1,0 +1,212 @@
+{
+  "Push-Ups Training": [
+    {
+      "type": "Push-Ups Training",
+      "name": "Standard Push-Ups",
+      "description": "Perform a basic push-up with proper form.",
+      "complexity": 3
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Diamond Push-Ups",
+      "description": "Place hands close together to target triceps more.",
+      "complexity": 5
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Archer Push-Ups",
+      "description": "Extend one arm while pushing with the other.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Clapping Push-Ups",
+      "description": "Explosive push-up with a clap at the top.",
+      "complexity": 7
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Wide Push-Ups",
+      "description": "Place hands wider than shoulder-width for more chest activation.",
+      "complexity": 4
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Close-Grip Push-Ups",
+      "description": "Keep hands directly under your chest to emphasize triceps.",
+      "complexity": 4
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Incline Push-Ups",
+      "description": "Perform push-ups with hands on an elevated surface for reduced difficulty.",
+      "complexity": 2
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Decline Push-Ups",
+      "description": "Place feet on an elevated surface to increase difficulty and target upper chest.",
+      "complexity": 5
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Pseudo Planche Push-Ups",
+      "description": "Lean forward while performing push-ups to increase shoulder and core activation.",
+      "complexity": 7
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Hindu Push-Ups",
+      "description": "Move through a full range of motion resembling a dive-bomber movement.",
+      "complexity": 6
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Spiderman Push-Ups",
+      "description": "Bring one knee towards the elbow as you lower into a push-up.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Pike Push-Ups",
+      "description": "Keep hips elevated and lower yourself to focus on shoulders.",
+      "complexity": 5
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Superman Push-Ups",
+      "description": "Explode off the ground and extend arms forward in a Superman position.",
+      "complexity": 8
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Typewriter Push-Ups",
+      "description": "Move side to side at the bottom of the push-up to increase lateral strength.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Fingertip Push-Ups",
+      "description": "Perform push-ups on your fingertips to strengthen grip and forearm muscles.",
+      "complexity": 6
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "One-Arm Push-Ups",
+      "description": "Perform push-ups using only one arm for an advanced strength challenge.",
+      "complexity": 9,
+      "double": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Explosive Push-Ups",
+      "description": "Push yourself off the ground explosively without clapping.",
+      "complexity": 6
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Wall Push-Ups",
+      "description": "Stand against a wall and perform push-ups for an easier variation.",
+      "complexity": 1
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Knee Push-Ups",
+      "description": "Perform push-ups with knees on the ground as a beginner-friendly version.",
+      "complexity": 1
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Scapular Push-Ups",
+      "description": "Focus on retracting and protracting shoulder blades without bending elbows.",
+      "complexity": 2
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Chest Tap Push-Ups",
+      "description": "Push explosively and tap your chest before landing.",
+      "complexity": 7
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Behind-the-Back Clap Push-Ups",
+      "description": "Explosive push-up where you clap behind your back.",
+      "complexity": 8
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Super Slow Push-Ups",
+      "description": "Lower and push up as slowly as possible to maximize time under tension.",
+      "complexity": 5
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Triceps Push-Ups",
+      "description": "Keep elbows tight to your body to target triceps more.",
+      "complexity": 4
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Sphinx Push-Ups",
+      "description": "Start in a forearm plank and push up using triceps.",
+      "complexity": 6
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Archer Explosive Push-Ups",
+      "description": "Explosive version of the archer push-up where one arm extends further each rep.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Dive Bomber Push-Ups",
+      "description": "Start in a pike position, swoop down, and push back up in reverse.",
+      "complexity": 6
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Floating Push-Ups",
+      "description": "Perform a push-up while briefly lifting hands off the ground before descending again.",
+      "complexity": 7
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Arm Circles",
+      "description": "Rotate your arms forward and backward to warm up shoulder joints.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Shoulder Shrugs",
+      "description": "Engage and relax your shoulders to activate stabilizing muscles.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Torso Twists",
+      "description": "Twist your upper body side to side to activate core muscles.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Wrist Rolls",
+      "description": "Rotate your wrists in circles to prepare them for weight-bearing exercises.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Push-Ups Training",
+      "name": "Chest Openers",
+      "description": "Stretch your chest by pulling your arms back and squeezing shoulder blades together.",
+      "complexity": 1,
+      "warming_up": true
+    }
+  ]
+}

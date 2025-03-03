@@ -1,0 +1,155 @@
+{
+  "Dips Training": [
+    {
+      "type": "Dips Training",
+      "name": "Standard Parallel Bar Dips",
+      "description": "Grip parallel bars, lower your body, then push back up.",
+      "complexity": 5
+    },
+    {
+      "type": "Dips Training",
+      "name": "Bench Dips",
+      "description": "Place your hands on a bench behind you and lower yourself.",
+      "complexity": 3
+    },
+    {
+      "type": "Dips Training",
+      "name": "Triceps Dips",
+      "description": "Keep your body upright and elbows close to emphasize triceps.",
+      "complexity": 5
+    },
+    {
+      "type": "Dips Training",
+      "name": "Chest Dips",
+      "description": "Lean forward slightly to target the chest more.",
+      "complexity": 5
+    },
+    {
+      "type": "Dips Training",
+      "name": "Explosive Dips",
+      "description": "Push explosively at the top, optionally clapping mid-air.",
+      "complexity": 7
+    },
+    {
+      "type": "Dips Training",
+      "name": "Negative Dips",
+      "description": "Lower yourself slowly to build eccentric strength.",
+      "complexity": 4
+    },
+    {
+      "type": "Dips Training",
+      "name": "Assisted Dips",
+      "description": "Use a resistance band or place feet on the ground to assist the movement.",
+      "complexity": 3
+    },
+    {
+      "type": "Dips Training",
+      "name": "Ring Dips",
+      "description": "Perform dips using gymnastic rings for added instability.",
+      "complexity": 7
+    },
+    {
+      "type": "Dips Training",
+      "name": "L-Sit Dips",
+      "description": "Perform dips while keeping legs extended in an L position.",
+      "complexity": 7
+    },
+    {
+      "type": "Dips Training",
+      "name": "One-Arm Assisted Dip",
+      "description": "Use one arm while assisting slightly with the other hand.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "One-Arm Dip",
+      "description": "Perform dips using only one arm for extreme strength training.",
+      "complexity": 10,
+      "double": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "Korean Dips",
+      "description": "Grip the bar behind your back and perform dips with your body in front.",
+      "complexity": 8
+    },
+    {
+      "type": "Dips Training",
+      "name": "Russian Dips",
+      "description": "Lower into a dip, transition into a forearm-supported position, and push back up.",
+      "complexity": 9
+    },
+    {
+      "type": "Dips Training",
+      "name": "Scapular Dips",
+      "description": "Perform small dips focusing only on scapular movement for shoulder stability.",
+      "complexity": 3
+    },
+    {
+      "type": "Dips Training",
+      "name": "Pike Dips",
+      "description": "Perform dips while keeping your legs extended in a pike position.",
+      "complexity": 6
+    },
+    {
+      "type": "Dips Training",
+      "name": "Super Slow Dips",
+      "description": "Perform dips with an extremely slow tempo to increase time under tension.",
+      "complexity": 6
+    },
+    {
+      "type": "Dips Training",
+      "name": "Floor Dips",
+      "description": "Sit on the ground, push through your hands to lift your hips up and down.",
+      "complexity": 2
+    },
+    {
+      "type": "Dips Training",
+      "name": "Reverse Plank Dips",
+      "description": "From a reverse plank, lower your body by bending your elbows and pushing back up.",
+      "complexity": 4
+    },
+    {
+      "type": "Dips Training",
+      "name": "Chair Dips",
+      "description": "Perform dips using a sturdy chair as support for your hands.",
+      "complexity": 3
+    },
+    {
+      "type": "Dips Training",
+      "name": "Arm Swings",
+      "description": "Swing your arms forward and backward to loosen the shoulders.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "Shoulder Rolls",
+      "description": "Roll your shoulders forward and backward in slow, controlled motions.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "Wall Angels",
+      "description": "Stand against a wall and move your arms up and down to improve shoulder mobility.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "Elbow Rotations",
+      "description": "Rotate your elbows in circular motions to warm up your joints.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Dips Training",
+      "name": "Torso Twists",
+      "description": "Gently twist your torso from side to side to activate the upper body.",
+      "complexity": 2,
+      "warming_up": true
+    }
+  ]
+}

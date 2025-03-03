@@ -1,3 +1,8 @@
+#TODO: reformat code
+#TODO: create separate global theme file
+#TODO: add other everyday sport routines
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -1,0 +1,200 @@
+{
+    "Calisthenics Skill Progressions": [
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Wall Plank Hold",
+        "description": "Use a wall for support while holding a plank position.",
+        "complexity": 1,
+        "warming_up": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Frog Stand",
+        "description": "Balance on your hands with knees resting on your elbows.",
+        "complexity": 2
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Tuck Planche Hold",
+        "description": "Hold a tuck position while balancing on your hands.",
+        "complexity": 4
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Advanced Frog Stand",
+        "description": "Balance on your hands with knees off your elbows.",
+        "complexity": 5
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Straddle Planche",
+        "description": "Hold a planche position with legs spread apart.",
+        "complexity": 8
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Full Planche",
+        "description": "Hold a planche position with legs together.",
+        "complexity": 10
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Hollow Body Hold",
+        "description": "Hold a position with the lower back on the floor, arms, and legs lifted.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Front Lever Tuck Hold",
+        "description": "Hold a tuck position while hanging from a bar.",
+        "complexity": 4
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Front Lever Raises",
+        "description": "Raise your body from a dead hang into a front lever position.",
+        "complexity": 7
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Full Front Lever Hold",
+        "description": "Hold a front lever position with the body fully extended.",
+        "complexity": 9
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Archer Pull-Ups",
+        "description": "Pull yourself up while keeping one arm extended.",
+        "complexity": 6,
+        "double": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Ice Cream Makers",
+        "description": "Transition between a front lever and a hanging position repeatedly.",
+        "complexity": 7
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "L-Sit Hold",
+        "description": "Hold your legs extended straight in front of you while supporting your body on parallel bars or the ground.",
+        "complexity": 5
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "One-Arm Isometric Holds",
+        "description": "Hold your body with only one arm engaged while keeping the other relaxed.",
+        "complexity": 8,
+        "double": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Wall Handstand Hold",
+        "description": "Hold a handstand against a wall for stability.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Freestanding Handstand",
+        "description": "Balance in a handstand position without support.",
+        "complexity": 7
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "One-Arm Handstand",
+        "description": "Hold a handstand using only one arm.",
+        "complexity": 10,
+        "double": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Skin the Cat",
+        "description": "Rotate your body under the bar in a controlled motion.",
+        "complexity": 5
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Back Lever Hold",
+        "description": "Hold a straight body position parallel to the ground while hanging from a bar.",
+        "complexity": 8
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Human Flag Hold",
+        "description": "Hold your body horizontal to the ground using a vertical pole.",
+        "complexity": 9
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "One-Arm Chin-Up",
+        "description": "Perform a chin-up using only one arm.",
+        "complexity": 9,
+        "double": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "One-Arm Pull-Up",
+        "description": "Perform a pull-up using only one arm.",
+        "complexity": 10,
+        "double": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Pseudo Planche Push-Ups",
+        "description": "Lean forward while performing push-ups to simulate a planche.",
+        "complexity": 6
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Straddle Front Lever Hold",
+        "description": "Hold a front lever with legs spread apart.",
+        "complexity": 8
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Elevated Pike Push-Ups",
+        "description": "Perform pike push-ups with feet elevated to build handstand push-up strength.",
+        "complexity": 5
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Tuck Handstand",
+        "description": "Hold a handstand with legs tucked close to your chest.",
+        "complexity": 6
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Dragon Flag",
+        "description": "Lower and raise your body in a straight position while lying on a bench.",
+        "complexity": 9
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "German Hang Hold",
+        "description": "Hang upside down with arms extended behind you.",
+        "complexity": 5
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Planche Push-Ups",
+        "description": "Perform push-ups while maintaining a planche position.",
+        "complexity": 9
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Straight Arm Scapular Shrugs",
+        "description": "Engage your scapulae while hanging to build shoulder stability.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Calisthenics Skill Progressions",
+        "name": "Handstand Walks",
+        "description": "Walk forward while maintaining a handstand position.",
+        "complexity": 8
+      }
+    ]
+  }
+  

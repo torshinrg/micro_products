@@ -1,0 +1,199 @@
+{
+  "Planks Training": [
+    {
+      "type": "Planks Training",
+      "name": "Standard Forearm Plank",
+      "description": "Hold a plank position on your forearms, keeping your body straight.",
+      "complexity": 3
+    },
+    {
+      "type": "Planks Training",
+      "name": "High Plank",
+      "description": "Hold a plank position on your hands, similar to the top of a push-up.",
+      "complexity": 3
+    },
+    {
+      "type": "Planks Training",
+      "name": "Side Plank",
+      "description": "Support your body on one forearm while keeping your body aligned.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Side Plank with Reach-Through",
+      "description": "Perform a side plank and twist your torso, reaching under your body.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank Shoulder Taps",
+      "description": "In a high plank, tap your opposite shoulder while keeping your core stable.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Dynamic Plank",
+      "description": "Move between forearm and high plank positions in a controlled motion.",
+      "complexity": 5
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank with Leg Lift",
+      "description": "Hold a plank and lift one leg at a time to increase difficulty.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank with Arm Lift",
+      "description": "Hold a plank and lift one arm at a time to challenge balance.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Reverse Plank",
+      "description": "Sit with legs extended and support your weight with arms behind you.",
+      "complexity": 4
+    },
+    {
+      "type": "Planks Training",
+      "name": "Reverse Plank with Leg Lift",
+      "description": "Hold a reverse plank and lift one leg at a time.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Elbow-to-Knee Plank",
+      "description": "From a forearm plank, bring one knee to the opposite elbow.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank Walkouts",
+      "description": "Start in a high plank and walk your hands forward, then back.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank Jacks",
+      "description": "Jump your feet in and out while holding a plank position.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "RKC (Hardstyle) Plank",
+      "description": "Tense your entire body while holding a plank for increased intensity.",
+      "complexity": 7
+    },
+    {
+      "type": "Planks Training",
+      "name": "Superman Plank",
+      "description": "Extend one arm and the opposite leg while maintaining plank stability.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Explosive Plank Push-Up",
+      "description": "Start in a plank and push up explosively to a high plank.",
+      "complexity": 7
+    },
+    {
+      "type": "Planks Training",
+      "name": "One-Arm Side Plank",
+      "description": "Perform a side plank while keeping one arm extended overhead.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank with Hip Dips",
+      "description": "Lower your hips side to side while holding a plank to target obliques.",
+      "complexity": 5
+    },
+    {
+      "type": "Planks Training",
+      "name": "Plank to Pike",
+      "description": "Transition from a high plank to a pike position and back.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "Hollow Body Hold",
+      "description": "Hold a position with your lower back on the floor and arms and legs lifted.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "Star Plank",
+      "description": "Perform a high plank with hands and feet spread wide.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "Wall Plank Hold",
+      "description": "Hold a plank position with your feet pressed against a wall.",
+      "complexity": 6
+    },
+    {
+      "type": "Planks Training",
+      "name": "Single-Leg Side Plank",
+      "description": "Perform a side plank while lifting the top leg to increase difficulty.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Crawling Plank",
+      "description": "Move forward and backward while maintaining a plank position.",
+      "complexity": 7
+    },
+    {
+      "type": "Planks Training",
+      "name": "Explosive Side Plank Switch",
+      "description": "Jump from one side plank to the other without touching the ground.",
+      "complexity": 8
+    },
+    {
+      "type": "Planks Training",
+      "name": "Arm Swings",
+      "description": "Swing your arms forward and backward to loosen the shoulders.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Torso Twists",
+      "description": "Twist your torso side to side to activate the core.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Cat-Cow Stretch",
+      "description": "Arch and round your back to mobilize the spine and warm up the core.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Wrist Rolls",
+      "description": "Rotate your wrists in circles to prepare them for supporting body weight.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Planks Training",
+      "name": "Bird-Dog",
+      "description": "Extend opposite arm and leg while on all fours to improve stability.",
+      "complexity": 3,
+      "warming_up": true
+    }
+  ]
+}

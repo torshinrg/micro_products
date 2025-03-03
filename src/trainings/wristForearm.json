@@ -1,0 +1,174 @@
+{
+    "Wrist & Forearm Strengthening": [
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Curls (No Equipment)",
+        "description": "Rest forearm on a surface and flex wrist upwards repeatedly.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Extensions",
+        "description": "Rest forearm on a surface and extend wrist upwards repeatedly.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Finger Push-ups",
+        "description": "Perform push-ups while balancing on fingertips.",
+        "complexity": 6
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wall Finger Holds",
+        "description": "Press fingertips against a wall and hold for endurance training.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Reverse Wrist Stretch",
+        "description": "Extend fingers backward with palm facing down to stretch the wrist.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Pronation & Supination Drills",
+        "description": "Rotate your wrists from palm up to palm down repeatedly.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Rotations",
+        "description": "Slowly rotate wrists in circles to improve mobility and prevent injuries.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Palm Presses",
+        "description": "Press palms together and push against each other to build strength.",
+        "complexity": 3
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Claw Grip Squeeze",
+        "description": "Make a claw shape with fingers and squeeze tightly for grip strength.",
+        "complexity": 3
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Isometric Wrist Hold",
+        "description": "Hold the wrist in a neutral position with tension for endurance.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wall Handstands (Forearm Activation)",
+        "description": "Perform a handstand against a wall to strengthen wrists and forearms.",
+        "complexity": 6
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Tabletop Wrist Lifts",
+        "description": "On all fours, lift wrists off the floor while keeping fingers down.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Backhand Finger Push-ups",
+        "description": "Perform push-ups with the back of hands resting on the floor.",
+        "complexity": 7
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Fist Push-ups",
+        "description": "Perform push-ups while balancing on fists.",
+        "complexity": 5
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Push-ups",
+        "description": "Lower yourself down and push back up using only wrist flexion.",
+        "complexity": 8
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Towel Grip Holds",
+        "description": "Squeeze a towel tightly for a sustained period to improve grip.",
+        "complexity": 3
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Finger Isometric Holds",
+        "description": "Press fingertips against a hard surface and hold for time.",
+        "complexity": 4,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Dynamic Finger Flicks",
+        "description": "Quickly extend fingers outward repeatedly to build speed and endurance.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Reverse Plank Wrist Stretch",
+        "description": "Sit back into a reverse plank while stretching wrists backward.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Controlled Articular Rotations (CARs)",
+        "description": "Perform slow, controlled wrist rotations focusing on full range of motion.",
+        "complexity": 3,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Finger Taps",
+        "description": "Individually tap each fingertip to your thumb as quickly as possible.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Wrist Walks",
+        "description": "Walk hands up and down a wall using only fingertips.",
+        "complexity": 4
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Finger Lifts",
+        "description": "Place hand flat on the floor and lift each finger individually.",
+        "complexity": 3,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "Piano Finger Taps",
+        "description": "Move fingers up and down as if playing piano, keeping wrist stable.",
+        "complexity": 3,
+        "warming_up": true,
+        "double": true
+      },
+      {
+        "type": "Wrist & Forearm Strengthening",
+        "name": "One-Finger Push-ups",
+        "description": "Perform push-ups balancing on only one or two fingers.",
+        "complexity": 10,
+        "double": true
+      }
+    ]
+  }
+  

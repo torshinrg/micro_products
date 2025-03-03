@@ -1,0 +1,187 @@
+{
+  "Squats Training": [
+    {
+      "type": "Squats Training",
+      "name": "Standard Squat",
+      "description": "Perform a basic squat while keeping your feet shoulder-width apart.",
+      "complexity": 3
+    },
+    {
+      "type": "Squats Training",
+      "name": "Wide Stance Squat",
+      "description": "Perform a squat with feet wider than shoulder-width for more inner thigh activation.",
+      "complexity": 3
+    },
+    {
+      "type": "Squats Training",
+      "name": "Close Stance Squat",
+      "description": "Keep feet close together to emphasize quads more.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Sumo Squat",
+      "description": "Take a wide stance with toes pointing outward, lowering into a squat.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Pistol Squat",
+      "description": "Perform a one-legged squat while extending the other leg forward.",
+      "complexity": 8,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Jump Squats",
+      "description": "Explosively jump at the top of the squat for power development.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Pause Squat",
+      "description": "Hold the bottom position of a squat for a few seconds before rising.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Wall Squat (Wall Sit)",
+      "description": "Hold a squat position with your back against a wall.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Deep Squat Hold",
+      "description": "Sit in a deep squat position for an extended period to improve mobility.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Bulgarian Split Squat",
+      "description": "Place one foot on an elevated surface behind you and squat on one leg.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Shrimp Squat",
+      "description": "Hold one foot behind you and lower into a controlled single-leg squat.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Curtsy Squat",
+      "description": "Step one leg behind the other in a curtsy motion while lowering into a squat.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Hindu Squat",
+      "description": "Perform a deep squat with heels lifting slightly off the ground.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Cossack Squat",
+      "description": "Shift your weight side to side into a deep lateral squat.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Single-Leg Box Squat",
+      "description": "Lower onto a box using one leg, then stand back up.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Kang Squat",
+      "description": "Hinge at the hips before dropping into a squat, mimicking a good morning movement.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Sissy Squat",
+      "description": "Lean back and lower your knees forward while engaging your quads.",
+      "complexity": 7
+    },
+    {
+      "type": "Squats Training",
+      "name": "Isometric Squat Hold",
+      "description": "Hold the squat position for an extended period to build endurance.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Step-Through Squats",
+      "description": "Perform a squat, step forward, and repeat in a continuous motion.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Bear Squats",
+      "description": "Start in a bear crawl position, lowering and pushing hips back like a squat.",
+      "complexity": 4
+    },
+    {
+      "type": "Squats Training",
+      "name": "Elevated Heel Squats",
+      "description": "Perform squats with heels slightly elevated to target the quads more.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Speed Squats",
+      "description": "Perform fast-paced squats to improve endurance and explosiveness.",
+      "complexity": 5
+    },
+    {
+      "type": "Squats Training",
+      "name": "Explosive Skater Squats",
+      "description": "Lower into a skater squat and explode upwards.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Leg Swings",
+      "description": "Swing one leg forward and backward to loosen up the hip flexors.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Hip Circles",
+      "description": "Stand and move your hips in circular motions to increase mobility.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Butt Kicks",
+      "description": "Run in place while kicking your heels toward your glutes.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Lateral Leg Swings",
+      "description": "Swing one leg side to side to loosen up the hip joints.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Squats Training",
+      "name": "Ankle Rolls",
+      "description": "Rotate your ankles in circles to improve stability before squatting.",
+      "complexity": 1,
+      "warming_up": true,
+      "double": true
+    }
+  ]
+}

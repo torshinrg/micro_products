@@ -1,0 +1,196 @@
+{
+  "Lunges Training": [
+    {
+      "type": "Lunges Training",
+      "name": "Standard Forward Lunge",
+      "description": "Step forward and lower your back knee towards the ground.",
+      "complexity": 3,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Reverse Lunge",
+      "description": "Step backward into a lunge position to strengthen knee stability.",
+      "complexity": 3,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Walking Lunge",
+      "description": "Perform lunges while moving forward continuously.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Jumping Lunge",
+      "description": "Explosively jump and switch legs mid-air for a powerful leg workout.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Curtsy Lunge",
+      "description": "Step one leg diagonally behind the other for a deeper glute activation.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Side Lunge",
+      "description": "Step to the side and lower into a deep lateral lunge.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Split Squat",
+      "description": "Remain in a split stance and lower into a lunge without stepping.",
+      "complexity": 4,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Bulgarian Split Lunge",
+      "description": "Elevate your rear foot on a surface and perform lunges for added intensity.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Crossover Lunge",
+      "description": "Cross one leg over the other in a lunge position for extra glute engagement.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Lunge with Knee Drive",
+      "description": "Drive the rear knee up towards the chest after each lunge.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Isometric Lunge Hold",
+      "description": "Hold the lunge position at the bottom for an extended period.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Explosive Step-Through Lunge",
+      "description": "Step forward into a lunge, then push explosively into the next step.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Pulsing Lunge",
+      "description": "Perform small, controlled up-and-down movements at the bottom of a lunge.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Lunge with Rotation",
+      "description": "Perform a lunge while twisting your torso to engage the core.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Step-Back Lunge to Knee Drive",
+      "description": "Step back into a lunge and drive the knee forward explosively.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Hover Lunge (Shrimp Squat)",
+      "description": "Hold one foot behind you and lower into a deep lunge without touching the ground.",
+      "complexity": 7,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Dynamic Skater Lunge",
+      "description": "Jump laterally into a lunge and repeat side to side.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Lunge to Single-Leg Balance",
+      "description": "Step into a lunge and then balance on one foot before stepping again.",
+      "complexity": 5,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Elevated Front Foot Lunge",
+      "description": "Place your front foot on an elevated surface to increase the range of motion.",
+      "complexity": 6,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "High Knees",
+      "description": "Run in place while bringing your knees to waist level.",
+      "complexity": 3,
+      "warming_up": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Butt Kicks",
+      "description": "Run in place while kicking your heels toward your glutes.",
+      "complexity": 3,
+      "warming_up": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Leg Swings",
+      "description": "Swing one leg forward and backward to warm up the hip flexors.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Lateral Leg Swings",
+      "description": "Swing one leg side to side to warm up the hips and inner thighs.",
+      "complexity": 2,
+      "warming_up": true,
+      "double": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Arm Circles",
+      "description": "Rotate your arms forward and backward in controlled circular motions.",
+      "complexity": 1,
+      "warming_up": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Torso Twists",
+      "description": "Twist your upper body side to side to loosen the spine and core.",
+      "complexity": 2,
+      "warming_up": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Jump Rope Simulation",
+      "description": "Jump in place as if using a jump rope to elevate heart rate.",
+      "complexity": 3,
+      "warming_up": true
+    },
+    {
+      "type": "Lunges Training",
+      "name": "Dynamic Lunges",
+      "description": "Perform lunges in a flowing motion to activate leg muscles.",
+      "complexity": 4,
+      "warming_up": true,
+      "double": true
+    }
+  ]
+}

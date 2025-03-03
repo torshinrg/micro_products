@@ -1,0 +1,198 @@
+{
+    "Back Strengthening & Mobility": [
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Superman Hold",
+        "description": "Lie on your stomach and lift arms and legs simultaneously, holding the position.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Reverse Plank",
+        "description": "Support your weight with arms behind you and keep your body in a straight line.",
+        "complexity": 4
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Bridge Hold",
+        "description": "Push your hips and chest upwards, holding a bridge position.",
+        "complexity": 5
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Shoulder Dislocates",
+        "description": "Use a wide grip to bring your arms overhead and behind your back for shoulder mobility.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wall Walks",
+        "description": "Start facing a wall and walk your hands down into a bridge position.",
+        "complexity": 6
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Prone Y Raises",
+        "description": "Lie face down, lift your arms into a Y shape, and squeeze your upper back.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Cobra Stretch",
+        "description": "Lie on your stomach and push up with your hands to extend your back.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Table Bridge",
+        "description": "Sit with feet and hands on the floor, push hips up into a table position.",
+        "complexity": 4
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wall Shoulder Stretch",
+        "description": "Press hands against a wall and lean forward to stretch shoulders and upper back.",
+        "complexity": 2
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Cat-Cow Stretch",
+        "description": "Move between arching and rounding your back for spinal flexibility.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Elbow Bridge",
+        "description": "Perform a bridge while supporting yourself on your elbows.",
+        "complexity": 6
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Standing Backbend",
+        "description": "Stand upright and bend backward while engaging your core.",
+        "complexity": 5
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wall Bridge",
+        "description": "Perform a bridge with your feet against a wall to increase back flexibility.",
+        "complexity": 6
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Hindu Push-Ups",
+        "description": "Start in a downward dog position, swoop down, and push back up.",
+        "complexity": 5
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Seated Forward Fold",
+        "description": "Sit with legs extended and reach forward to stretch your back and hamstrings.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wall Shoulder Openers",
+        "description": "Face a wall, place hands overhead, and lean forward for a deep shoulder stretch.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wrist Extensions",
+        "description": "Stretch your wrists to improve flexibility for bridges and arm stands.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Superman Lifts",
+        "description": "Lie on your stomach and lift your upper body and legs repeatedly.",
+        "complexity": 4
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Back Extension Holds",
+        "description": "Hold a back extension position while lying on your stomach.",
+        "complexity": 4
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Dynamic Backbends",
+        "description": "Move in and out of a backbend for mobility and control.",
+        "complexity": 6
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Reverse Snow Angels",
+        "description": "Lie face down and move arms in a snow angel motion for back mobility.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Scapular Wall Slides",
+        "description": "Slide your arms up and down a wall to activate your shoulder mobility.",
+        "complexity": 3
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Thoracic Bridge",
+        "description": "Perform a bridge focusing on upper back extension.",
+        "complexity": 6
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Quadruped T-Spine Rotations",
+        "description": "Start on all fours, rotate one arm upward, then switch sides.",
+        "complexity": 3,
+        "double": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Downward Dog to Cobra Flow",
+        "description": "Transition between downward dog and cobra stretch to open the back.",
+        "complexity": 4
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Back Roll to Bridge",
+        "description": "Roll backward onto your shoulders and transition into a bridge.",
+        "complexity": 7
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Neck Bridges",
+        "description": "Lie on your back and press through your neck to lift your upper body.",
+        "complexity": 8
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Arm Circles",
+        "description": "Rotate your arms forward and backward to warm up shoulders.",
+        "complexity": 1,
+        "warming_up": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Pelvic Tilts",
+        "description": "Gently tilt your pelvis forward and backward to warm up the lower back.",
+        "complexity": 2,
+        "warming_up": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Hip Bridges",
+        "description": "Push hips up while lying down to activate lower back and glutes.",
+        "complexity": 3,
+        "warming_up": true
+      },
+      {
+        "type": "Back Strengthening & Mobility",
+        "name": "Wrist Flexor Stretch",
+        "description": "Extend your arm and pull back on your fingers to stretch the wrist flexors.",
+        "complexity": 2,
+        "warming_up": true
+      }
+    ]
+  }
+  
