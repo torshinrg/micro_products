@@ -1,3 +1,4 @@
+// File: src/app/split-training/[workout]/page.jsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -5,78 +6,70 @@ import { useParams, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import { Timer } from "@/components/ui/Timer";
 import { openYouTubeSearch } from "@/utils/openYouTubeSearch";
-import { FeedbackPopup } from "@/components/common/FeedbackPopup";
 import { ExerciseService } from "@/services/ExerciseService";
+import { FeedbackPopup } from "@/components/common/FeedbackPopup";
 
 export default function WorkoutPage() {
-  const params = useParams();
+  const { workout } = useParams();
   const router = useRouter();
-  
-  // Guard if workout param is not available.
-  if (!params || !params.workout) {
-    return <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">Workout not defined</div>;
-  }
+  // Convert hyphens back to spaces
+  const workoutName = decodeURIComponent(workout.replace(/-/g, " "));
 
-  // Convert hyphens back to spaces for display and lookup.
-  const workoutName = decodeURIComponent(params.workout.replace(/-/g, " "));
-
-  const [warmUpList, setWarmUpList] = useState([]);
-  const [mainList, setMainList] = useState([]);
+  // Combined routine: an array of groups (each group is an array of one or two exercises)
   const [combinedRoutine, setCombinedRoutine] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // Active group index
+  const [currentGroupIndex, setCurrentGroupIndex] = useState(0);
+  // Timer state
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
   const [isResting, setIsResting] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
 
-  const defaultExerciseTime = 30;
-  const defaultRestTime = 15;
+  // Get user-set timer values from localStorage (or use defaults)
+  const defaultExerciseTime = parseInt(localStorage.getItem("exerciseTime")) || 30;
+  const defaultRestTime = parseInt(localStorage.getItem("restTime")) || 15;
 
+  // Load the routine on mount: warm ups first then main exercises.
   useEffect(() => {
-    async function fetchExercises() {
+    async function fetchRoutine() {
       await ExerciseService.loadTrainings();
-      // Retrieve warm‑up and main routine exercises using your new keys
-      const warmUps = ExerciseService.getRandomWarmUpExercises(workoutName, 5, 10);
-      const mainEx = ExerciseService.getRandomExercises(workoutName, 5);
-
-      const doubleHandler = (list) =>
-        list.flatMap((ex) =>
-          ex.double ? [{ ...ex, note: "first side" }, { ...ex, note: "second side" }] : [ex]
-        );
-
-      const warmUpFinal = doubleHandler(warmUps);
-      const mainFinal = doubleHandler(mainEx);
-
-      setWarmUpList(warmUpFinal);
-      setMainList(mainFinal);
-
-      // Combine routines (warm‑up first)
-      const combined = [...warmUpFinal, ...mainFinal].slice(0, 10);
+      const warmUpGroups = ExerciseService.getGroupedWarmUpExercises(workoutName, 5, 10);
+      const mainGroups = ExerciseService.getGroupedExercises(workoutName, 10);
+      const combined = [...warmUpGroups, ...mainGroups];
       setCombinedRoutine(combined);
-
-      if (combined.length > 0) {
-        setTime(combined[0].time || defaultExerciseTime);
+      if (combined.length > 0 && combined[0][0]) {
+        setTime(combined[0][0].time || defaultExerciseTime);
       }
     }
-    fetchExercises();
-  }, [workoutName]);
+    fetchRoutine();
+  }, [workoutName, defaultExerciseTime]);
 
-  const currentExercise = combinedRoutine[currentIndex] || null;
-  const nextExercise = combinedRoutine[currentIndex + 1] || null;
+  // Timer effect – count down and call handleTimerFinish when time reaches 0.
+  useEffect(() => {
+    let interval;
+    if (isRunning && time > 0) {
+      interval = setInterval(() => {
+        setTime((prev) => prev - 1);
+      }, 1000);
+    } else if (time === 0 && isRunning) {
+      handleTimerFinish();
+    }
+    return () => clearInterval(interval);
+  }, [isRunning, time]);
 
+  // When timer finishes: if resting then move to next group; if exercise done then start rest.
   const handleTimerFinish = () => {
     if (isResting) {
       setIsResting(false);
-      const nextIndex = currentIndex + 1;
-      if (nextIndex < combinedRoutine.length) {
-        setCurrentIndex(nextIndex);
-        setTime(combinedRoutine[nextIndex].time || defaultExerciseTime);
+      if (currentGroupIndex + 1 < combinedRoutine.length) {
+        setCurrentGroupIndex(currentGroupIndex + 1);
+        setTime(combinedRoutine[currentGroupIndex + 1][0].time || defaultExerciseTime);
       } else {
         setIsRunning(false);
         setShowFeedback(true);
       }
     } else {
-      if (currentIndex < combinedRoutine.length - 1) {
+      if (currentGroupIndex < combinedRoutine.length - 1) {
         setIsResting(true);
         setTime(defaultRestTime);
       } else {
@@ -90,148 +83,115 @@ export default function WorkoutPage() {
     setIsRunning((prev) => !prev);
   };
 
-  // Pause timer on page visibility change.
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        setIsRunning(false);
+  // Switch the current group at the given index with an alternative that hasn't been chosen yet.
+  const switchGroup = (index) => {
+    const excludeGroups = combinedRoutine;
+    const alternative = ExerciseService.getAlternativeGroup(workoutName, excludeGroups);
+    if (alternative) {
+      const newRoutine = [...combinedRoutine];
+      newRoutine[index] = alternative;
+      setCombinedRoutine(newRoutine);
+      if (index === currentGroupIndex && alternative[0]) {
+        setTime(alternative[0].time || defaultExerciseTime);
       }
-    };
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-    return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
-  }, []);
-
-  // Clicking on a card (except the title link) will jump to that exercise.
-  const handleCardClick = (index) => {
-    setCurrentIndex(index);
-    setTime(combinedRoutine[index].time || defaultExerciseTime);
-    setIsRunning(true);
-  };
-
-  const handleFeedback = (feedback) => {
-    const workoutKey = `workoutLevel_${workoutName}`;
-    let currentLevel =
-      parseInt(localStorage.getItem(workoutKey)) ||
-      parseInt(localStorage.getItem("workoutLevel")) ||
-      5;
-    if (feedback === "easy") currentLevel += 1;
-    else if (feedback === "hard") currentLevel = Math.max(1, currentLevel - 1);
-    localStorage.setItem(workoutKey, currentLevel);
-
-    let streak = parseInt(localStorage.getItem("trainingStreak")) || 0;
-    localStorage.setItem("trainingStreak", streak + 1);
-    if (streak + 1 === 30) {
-      alert("Congratulations! You've reached a 30-day training streak!");
+    } else {
+      alert("No alternative exercise available.");
     }
-    setShowFeedback(false);
-    router.push("/");
   };
+
+  // Determine the active group and next group
+  const currentGroup = combinedRoutine[currentGroupIndex] || [];
+  const nextGroup = combinedRoutine[currentGroupIndex + 1] || null;
 
   return (
-    <div className="p-6 flex flex-col items-center text-center bg-gray-900 text-white min-h-screen space-y-6">
-      <h1 className="text-2xl font-bold">{workoutName}</h1>
+    <div className="p-6 flex flex-col items-center text-center bg-gray-900 text-white min-h-screen">
+      <h1 className="text-2xl font-bold mb-4">{workoutName}</h1>
 
+      {/* Current exercise card (only one switch button on right) */}
+      <div className="flex items-center justify-center mb-4">
+        <div className="p-4 bg-blue-600 rounded text-white text-xl">
+          {isResting ? (
+            <div>
+              Resting...{" "}
+              {nextGroup && (
+                <span
+                  onClick={() => openYouTubeSearch(nextGroup[0].name)}
+                  className="underline cursor-pointer"
+                >
+                  Next: {nextGroup[0].name}
+                </span>
+              )}
+            </div>
+          ) : (
+            <div>
+              {currentGroup[0] && (
+                <span
+                  onClick={() => openYouTubeSearch(currentGroup[0].name)}
+                  className="underline cursor-pointer"
+                >
+                  {currentGroup[0].name}
+                  {currentGroup[0].note ? ` (${currentGroup[0].note})` : ""}
+                </span>
+              )}
+            </div>
+          )}
+        </div>
+        <button
+          onClick={() => switchGroup(currentGroupIndex)}
+          className="ml-4 text-3xl text-gray-300 hover:text-white"
+          title="Switch this exercise"
+        >
+          ↻
+        </button>
+      </div>
+
+      {/* Timer component */}
       <Timer time={time} setTime={setTime} isRunning={isRunning} onFinish={handleTimerFinish} />
 
-      <Button className="mt-4" onClick={handleStartPause}>
+      <Button className="bg-green-500 hover:bg-green-600 mt-4" onClick={handleStartPause}>
         {isRunning ? "Pause" : "Start"}
       </Button>
 
-      <div className="space-y-2">
-        {currentExercise && (
-          <div className="text-xl">
-            Current:{" "}
-            <a
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(
-                currentExercise.name
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline cursor-pointer text-blue-400"
-            >
-              {currentExercise.name}
-              {currentExercise.note ? ` (${currentExercise.note})` : ""}
-            </a>
-          </div>
-        )}
-        {nextExercise && (
-          <div className="text-lg text-gray-400">
-            Next:{" "}
-            <a
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(
-                nextExercise.name
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline cursor-pointer"
-            >
-              {nextExercise.name}
-              {nextExercise.note ? ` (${nextExercise.note})` : ""}
-            </a>
-          </div>
-        )}
-      </div>
-
-      <div className="mt-6 w-full max-w-3xl space-y-4">
-        {warmUpList.length > 0 && (
-          <div>
-            <h2 className="text-xl font-bold mb-2">Warm Up</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {warmUpList.map((ex, idx) => (
-                <div
-                  key={idx}
-                  className={`p-4 border rounded bg-gray-800 cursor-pointer ${
-                    combinedRoutine.indexOf(ex) === currentIndex ? "bg-green-700" : ""
-                  }`}
-                  onClick={() => handleCardClick(combinedRoutine.indexOf(ex))}
-                >
-                  <h3 className="text-lg font-semibold text-blue-400">
-                    <a
-                      href={`https://www.youtube.com/results?search_query=${encodeURIComponent(ex.name)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline"
+      {/* Mini-cards for all routine groups */}
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl">
+        {combinedRoutine.map((group, idx) => (
+          <div
+            key={idx}
+            className={`p-4 border rounded cursor-pointer ${idx === currentGroupIndex ? "bg-green-700" : "bg-gray-800"}`}
+            onClick={() => setCurrentGroupIndex(idx)}
+          >
+            <div className="flex justify-between items-center">
+              <div>
+                {group.map((ex, jdx) => (
+                  <div key={jdx}>
+                    <h3
+                      className="text-lg font-semibold text-blue-400 underline cursor-pointer"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openYouTubeSearch(ex.name);
+                      }}
                     >
                       {ex.name}
                       {ex.note ? ` (${ex.note})` : ""}
-                    </a>
-                  </h3>
-                  <p className="text-sm text-gray-400">{ex.description}</p>
-                </div>
-              ))}
+                    </h3>
+                    <p className="text-sm text-gray-400">{ex.description}</p>
+                  </div>
+                ))}
+              </div>
+              {/* Only one switch icon per group */}
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  switchGroup(idx);
+                }}
+                className="ml-2 text-xl text-gray-300 hover:text-white"
+                title="Switch this group"
+              >
+                ↻
+              </button>
             </div>
           </div>
-        )}
-
-        {mainList.length > 0 && (
-          <div>
-            <h2 className="text-xl font-bold mb-2">Main Workout</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {mainList.map((ex, idx) => (
-                <div
-                  key={idx}
-                  className={`p-4 border rounded bg-gray-800 cursor-pointer ${
-                    combinedRoutine.indexOf(ex) === currentIndex ? "bg-green-700" : ""
-                  }`}
-                  onClick={() => handleCardClick(combinedRoutine.indexOf(ex))}
-                >
-                  <h3 className="text-lg font-semibold text-blue-400">
-                    <a
-                      href={`https://www.youtube.com/results?search_query=${encodeURIComponent(ex.name)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline"
-                    >
-                      {ex.name}
-                      {ex.note ? ` (${ex.note})` : ""}
-                    </a>
-                  </h3>
-                  <p className="text-sm text-gray-400">{ex.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+        ))}
       </div>
 
       <Button className="mt-6" onClick={() => router.push("/")}>
@@ -239,7 +199,14 @@ export default function WorkoutPage() {
       </Button>
 
       {showFeedback && (
-        <FeedbackPopup workoutType={workoutName} onFeedback={handleFeedback} />
+        <FeedbackPopup
+          workoutType={workoutName}
+          onFeedback={(fb) => {
+            // Process feedback (update level/streak, etc.)
+            setShowFeedback(false);
+            router.push("/");
+          }}
+        />
       )}
     </div>
   );
