@@ -16,18 +16,16 @@ export default function Training() {
     async function fetchTrainings() {
       await ExerciseService.loadTrainings();
       setTrainings(ExerciseService.getTrainingTypes());
-      console.log("Fetched trainings:", ExerciseService.trainings); // Debug log
+      console.log("Fetched trainings:", ExerciseService.trainings);
     }
     fetchTrainings();
   }, []);
 
   const startTraining = async (trainingType) => {
-    console.log(`Starting training: ${trainingType}`); // Debug log
-
-    await ExerciseService.loadTrainings(); // Ensure data is loaded
+    window.dataLayer.push({ event: "event_training_type_selected", trainingType });
+    await ExerciseService.loadTrainings();
     const exercises = ExerciseService.getRandomExercises(trainingType, 5);
     
-    console.log(`Exercises for ${trainingType}:`, exercises); // Debug log
     if (exercises.length === 0) {
       alert("No exercises found for this training. Check API.");
       return;
@@ -64,7 +62,11 @@ export default function Training() {
               <Card key={index} className="mb-2 p-2 bg-gray-800 text-white">
                 <CardContent className="flex justify-between items-center">
                   <div>
-                    <p className="font-semibold text-blue-400">{exercise.name}</p>
+                    <p className="font-semibold text-blue-400">
+                      <a onClick={() => window.open(`https://www.youtube.com/results?search_query=${encodeURIComponent(exercise.name)}`, "_blank")} className="underline cursor-pointer">
+                        {exercise.name}{exercise.note ? ` (${exercise.note})` : ""}
+                      </a>
+                    </p>
                     <p className="text-sm text-gray-400">{exercise.description}</p>
                   </div>
                 </CardContent>

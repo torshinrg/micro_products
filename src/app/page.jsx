@@ -48,6 +48,8 @@ export default function HomePage() {
     setWorkoutLevel(level);
     setShowLevelPopup(false);
     setShowWorkoutPopup(true);
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "event_workout_level_chosen", level });
   };
 
   const savePreferredWorkouts = () => {
@@ -60,11 +62,15 @@ export default function HomePage() {
       }
     });
     setShowWorkoutPopup(false);
+    window.dataLayer.push({ event: "event_preferred_workouts_set", workouts: preferredWorkouts });
+  
   };
   
 
   const startTrainingPlan = () => {
     localStorage.setItem("todaysWorkouts", JSON.stringify(todayWorkouts));
+    let todaysWorkouts = JSON.stringify(todayWorkouts);
+    window.dataLayer.push({ event: "event_training_plan_started", todaysWorkouts });
     router.push("/training");
   };
 
