@@ -2,6 +2,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import Script from "next/script";
+import { theme } from "@/styles/theme";
+import { Header } from "@/components/common/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +39,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased p-6`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased p-6 ${theme.colors.background}`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -47,6 +49,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <Header />
         {children}
       </body>
     </html>
