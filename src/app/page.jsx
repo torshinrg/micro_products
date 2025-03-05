@@ -153,19 +153,26 @@ export default function HomePage() {
 
       {showWorkoutPopup && (
         <Popup onClose={savePreferredWorkouts}>
-          <h2 className="text-xl mb-4">Select Your Preferred Workouts</h2>
+          <h2 className="text-xl mb-4 text-center">Select Your Preferred Workouts</h2>
           <button
             onClick={() => setPreferredWorkouts(trainingOptions)}
-            className="text-sm text-blue-400 underline mb-2"
+            className="block mx-auto text-sm text-blue-400 underline mb-2"
           >
             Select All
           </button>
-          <div className="grid grid-cols-2 gap-2">
+          {/* Wrapping grid in a scrollable container if needed */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[300px] overflow-y-auto">
             {trainingOptions.map((workout) => (
               <button
                 key={workout}
-                className={`p-3 border rounded ${preferredWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"
-                  }`}
+                className={`
+            p-3 border rounded text-center text-sm whitespace-normal break-words
+            ${preferredWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"}
+          `}
+                style={{
+                  wordBreak: "break-word",
+                  overflowWrap: "break-word",
+                }}
                 onClick={() =>
                   setPreferredWorkouts((prev) =>
                     prev.includes(workout)
@@ -178,11 +185,12 @@ export default function HomePage() {
               </button>
             ))}
           </div>
-          <Button className="mt-6" onClick={savePreferredWorkouts}>
+          <Button className="mt-6 w-full" onClick={savePreferredWorkouts}>
             Save Workouts
           </Button>
         </Popup>
       )}
+
     </>
   );
 }
