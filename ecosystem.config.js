@@ -1,13 +1,12 @@
 module.exports = {
-    apps: [
-      {
-        name: "simple apps",
-        script: "npm",
-        args: "run start",
-        env: {
-          PORT: 4000,
-        },
+  apps: [
+    {
+      name: "simple apps",
+      script: "npx",
+      args: "serve@latest out -l 4000",
+      env: {
+        PORT: 4000,
       },
-    ],
-  };
-  
+    },
+  ],
+};
