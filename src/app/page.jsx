@@ -100,17 +100,19 @@ export default function HomePage() {
           )}
           <h1 className="text-2xl font-bold">Welcome to Your Training Planner</h1>
         </div>
-        
+
         {/* Middle Area: Scrollable Preferred Workouts */}
         <div className="h-2/4 overflow-y-auto w-full">
           {workoutLevel && preferredWorkouts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {preferredWorkouts.map((workout, idx) => (
                 <button
                   key={idx}
-                  className={`p-4 border rounded ${
-                    todayWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"
-                  }`}
+                  className={`
+            p-4 border rounded text-center text-sm 
+            whitespace-normal break-words leading-tight
+            ${todayWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"}
+          `}
                   onClick={() =>
                     setTodayWorkouts((prev) =>
                       prev.includes(workout)
@@ -127,7 +129,8 @@ export default function HomePage() {
             <p className="text-center">Loading...</p>
           )}
         </div>
-        
+
+
         {/* Bottom Area: Button */}
         <div className="h-1/4 flex items-center justify-center">
           <Button onClick={startTrainingPlan}>
@@ -166,9 +169,8 @@ export default function HomePage() {
             {trainingOptions.map((workout) => (
               <button
                 key={workout}
-                className={`p-3 border rounded ${
-                  preferredWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"
-                }`}
+                className={`p-3 border rounded ${preferredWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"
+                  }`}
                 onClick={() =>
                   setPreferredWorkouts((prev) =>
                     prev.includes(workout)
