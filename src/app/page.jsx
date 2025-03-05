@@ -103,34 +103,29 @@ export default function HomePage() {
 
         {/* Middle Area: Scrollable Preferred Workouts */}
         <div className="h-2/4 overflow-y-auto w-full">
-          {workoutLevel && preferredWorkouts.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {preferredWorkouts.map((workout, idx) => (
-                <button
-                  key={idx}
-                  className={`
-            p-4 border rounded text-center text-sm 
-            whitespace-normal break-words leading-tight
-            ${todayWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"}
-          `}
-                  onClick={() =>
-                    setTodayWorkouts((prev) =>
-                      prev.includes(workout)
-                        ? prev.filter((w) => w !== workout)
-                        : [...prev, workout]
-                    )
-                  }
-                >
-                  {workout}
-                </button>
-              ))}
-            </div>
-          ) : (
-            <p className="text-center">Loading...</p>
-          )}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+            {preferredWorkouts.map((workout, idx) => (
+              <button
+                key={idx}
+                className={`
+          w-full p-4 border rounded 
+          text-center text-sm leading-tight 
+          whitespace-normal break-words
+          ${todayWorkouts.includes(workout) ? "bg-blue-500" : "bg-gray-700"}
+        `}
+                style={{
+                  wordBreak: "break-word",
+                  overflowWrap: "break-word",
+                }}
+                onClick={() => {
+                  // Your existing onClick logic...
+                }}
+              >
+                {workout}
+              </button>
+            ))}
+          </div>
         </div>
-
-
         {/* Bottom Area: Button */}
         <div className="h-1/4 flex items-center justify-center">
           <Button onClick={startTrainingPlan}>
