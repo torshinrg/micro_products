@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "serve out -l 4000"
   },
   "dependencies": {
     "@capacitor/cli": "^7.0.1",
