@@ -16,7 +16,7 @@ export default function Training() {
     async function fetchTrainings() {
       await ExerciseService.loadTrainings();
       setTrainings(ExerciseService.getTrainingTypes());
-      console.log("Fetched trainings:", ExerciseService.trainings);
+      
     }
     fetchTrainings();
   }, []);

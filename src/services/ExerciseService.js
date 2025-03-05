@@ -1,16 +1,51 @@
 // File: src/services/ExerciseService.js
+
+import absData from "@/trainings/abs.json";
+import backStrengthData from "@/trainings/backStrength.json";
+import calisthenicsSkillsData from "@/trainings/calisthenicsSkills.json";
+import dipsData from "@/trainings/dips.json";
+import hipMobilityData from "@/trainings/hipMobility.json";
+import jumpData from "@/trainings/jump.json";
+import kneeStrengthData from "@/trainings/kneeStrength.json";
+import lungesData from "@/trainings/lunges.json";
+import neckTrainingData from "@/trainings/neckTraining.json";
+import planksData from "@/trainings/planks.json";
+import pullUpsData from "@/trainings/pullUps.json";
+import pushUpsData from "@/trainings/pushUps.json";
+import splitsData from "@/trainings/splits.json";
+import sprintSpeedData from "@/trainings/sprintSpeed.json";
+import squatsData from "@/trainings/squats.json";
+import wristForearmData from "@/trainings/wristForearm.json";
+
+// Merge all training JSON objects into one
+const allTrainings = {
+  ...absData,
+  ...backStrengthData,
+  ...calisthenicsSkillsData,
+  ...dipsData,
+  ...hipMobilityData,
+  ...jumpData,
+  ...kneeStrengthData,
+  ...lungesData,
+  ...neckTrainingData,
+  ...planksData,
+  ...pullUpsData,
+  ...pushUpsData,
+  ...splitsData,
+  ...sprintSpeedData,
+  ...squatsData,
+  ...wristForearmData,
+};
+
 export class ExerciseService {
   static trainings = {};
 
+  // Instead of fetching from an API, we load the trainings from static imports.
   static async loadTrainings() {
-    try {
-      const response = await fetch("/api/trainings");
-      const data = await response.json();
-      this.trainings = data;
-      console.log("🔹 Loaded Trainings:", this.trainings);
-    } catch (error) {
-      console.error("❌ Failed to fetch trainings:", error);
-    }
+    // In a frontend-only approach, we already have the data.
+    // If needed, you can wrap this in a promise for consistency.
+    this.trainings = allTrainings;
+    
   }
 
   static getTrainingTypes() {
@@ -55,20 +90,32 @@ export class ExerciseService {
 
   /**
    * Returns a random alternative group for a given training type,
-   * excluding any groups (by comparing the first exercise name & note) already used.
+   * excluding any groups already used.
    */
-  static getAlternativeGroup(type, excludeGroups) {
-    // Get a larger pool
+  static getAlternativeGroup(type, currentGroup) {
     const groups = this.getGroupedExercises(type, 20);
-    const filtered = groups.filter((group) => {
-      return !excludeGroups.some((exGroup) => {
-        // Compare first exercise name and note
-        return (
-          exGroup[0].name === group[0].name &&
-          exGroup[0].note === group[0].note
-        );
-      });
-    });
+    const filtered = groups.filter(
+      (group) => group[0].name !== currentGroup[0].name
+    );
+    if (filtered.length > 0) {
+      return filtered[Math.floor(Math.random() * filtered.length)];
+    }
+    return null;
+  }
+
+  /**
+   * Returns a random alternative warm-up group for a given training type,
+   * excluding the provided current group (based on exercise name).
+   */
+  static getAlternativeWarmUpGroup(type, currentGroup, minCount = 5, maxCount = 10) {
+    if (!this.trainings[type]) {
+      console.warn(`Training type "${type}" not found.`);
+      return null;
+    }
+    const warmUpGroups = this.getGroupedWarmUpExercises(type, minCount, maxCount);
+    const filtered = warmUpGroups.filter(
+      (group) => group[0].name !== currentGroup[0].name
+    );
     if (filtered.length > 0) {
       return filtered[Math.floor(Math.random() * filtered.length)];
     }

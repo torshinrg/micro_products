@@ -16,7 +16,7 @@ export function TestFanfare() {
       {showFeedback && (
         <FeedbackPopup
           onFeedback={(feedback) => {
-            console.log("Feedback received:", feedback);
+            
             setShowFeedback(false);
           }}
         />

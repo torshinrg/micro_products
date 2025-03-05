@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased p-6`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
