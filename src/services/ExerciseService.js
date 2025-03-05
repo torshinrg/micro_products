@@ -1,21 +1,22 @@
 // File: src/services/ExerciseService.js
 
-import absData from "@/trainings/abs.json";
-import backStrengthData from "@/trainings/backStrength.json";
-import calisthenicsSkillsData from "@/trainings/calisthenicsSkills.json";
-import dipsData from "@/trainings/dips.json";
-import hipMobilityData from "@/trainings/hipMobility.json";
-import jumpData from "@/trainings/jump.json";
-import kneeStrengthData from "@/trainings/kneeStrength.json";
-import lungesData from "@/trainings/lunges.json";
-import neckTrainingData from "@/trainings/neckTraining.json";
-import planksData from "@/trainings/planks.json";
-import pullUpsData from "@/trainings/pullUps.json";
-import pushUpsData from "@/trainings/pushUps.json";
-import splitsData from "@/trainings/splits.json";
-import sprintSpeedData from "@/trainings/sprintSpeed.json";
-import squatsData from "@/trainings/squats.json";
-import wristForearmData from "@/trainings/wristForearm.json";
+import absData from "../trainings/abs.json" assert { type: "json" };
+import backStrengthData from "../trainings/backStrength.json" assert { type: "json" };
+import calisthenicsSkillsData from "../trainings/calisthenicsSkills.json" assert { type: "json" };
+import dipsData from "../trainings/dips.json" assert { type: "json" };
+import hipMobilityData from "../trainings/hipMobility.json" assert { type: "json" };
+import jumpData from "../trainings/jump.json" assert { type: "json" };
+import kneeStrengthData from "../trainings/kneeStrength.json" assert { type: "json" };
+import lungesData from "../trainings/lunges.json" assert { type: "json" };
+import neckTrainingData from "../trainings/neckTraining.json" assert { type: "json" };
+import planksData from "../trainings/planks.json" assert { type: "json" };
+import pullUpsData from "../trainings/pullUps.json" assert { type: "json" };
+import pushUpsData from "../trainings/pushUps.json" assert { type: "json" };
+import splitsData from "../trainings/splits.json" assert { type: "json" };
+import sprintSpeedData from "../trainings/sprintSpeed.json" assert { type: "json" };
+import squatsData from "../trainings/squats.json" assert { type: "json" };
+import wristForearmData from "../trainings/wristForearm.json" assert { type: "json" };
+import { slugify } from "../utils/slugify";
 
 // Merge all training JSON objects into one
 const allTrainings = {
@@ -45,7 +46,7 @@ export class ExerciseService {
     // In a frontend-only approach, we already have the data.
     // If needed, you can wrap this in a promise for consistency.
     this.trainings = allTrainings;
-    
+
   }
 
   static getTrainingTypes() {
@@ -120,6 +121,11 @@ export class ExerciseService {
       return filtered[Math.floor(Math.random() * filtered.length)];
     }
     return null;
+  }
+
+  static getTrainingBySlug(slug) {
+    const types = this.getTrainingTypes();
+    return types.find((type) => slugify(type) === slug);
   }
 
   /**

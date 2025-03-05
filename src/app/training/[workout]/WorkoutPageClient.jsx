@@ -10,7 +10,8 @@ import { FeedbackPopup } from "@/components/common/FeedbackPopup";
 
 export default function WorkoutPageClient({ workout }) {
   // Convert hyphens back to spaces
-  const workoutName = decodeURIComponent(workout).replace(/-/g, " ");
+  const decodedSlug = decodeURIComponent(workout);
+  const workoutName = ExerciseService.getTrainingBySlug(decodedSlug) || decodedSlug;
   const router = useRouter();
 
   // State for routines and groups
@@ -171,9 +172,8 @@ export default function WorkoutPageClient({ workout }) {
                 return (
                   <div
                     key={`warm-${idx}`}
-                    className={`p-4 border rounded cursor-pointer ${
-                      currentGroupIndex === globalIndex ? "bg-green-700" : "bg-gray-800"
-                    }`}
+                    className={`p-4 border rounded cursor-pointer ${currentGroupIndex === globalIndex ? "bg-green-700" : "bg-gray-800"
+                      }`}
                     onClick={() => {
                       setCurrentGroupIndex(globalIndex);
                       setCurrentSideIndex(0);
@@ -220,9 +220,8 @@ export default function WorkoutPageClient({ workout }) {
                 return (
                   <div
                     key={`train-${idx}`}
-                    className={`p-4 border rounded cursor-pointer ${
-                      currentGroupIndex === globalIndex ? "bg-green-700" : "bg-gray-800"
-                    }`}
+                    className={`p-4 border rounded cursor-pointer ${currentGroupIndex === globalIndex ? "bg-green-700" : "bg-gray-800"
+                      }`}
                     onClick={() => {
                       setCurrentGroupIndex(globalIndex);
                       setCurrentSideIndex(0);

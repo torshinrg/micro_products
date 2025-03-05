@@ -1,5 +1,6 @@
 // File: src/app/training/[workout]/page.jsx
 import WorkoutPageClient from "./WorkoutPageClient";
+import { slugify } from "@/utils/slugify";
 
 // File: src/app/training/[workout]/page.jsx
 export async function generateStaticParams() {
@@ -10,7 +11,7 @@ export async function generateStaticParams() {
   const workouts = ExerciseService.getTrainingTypes() || [];
   return workouts.map((workout) => ({
     // Encode the workout param so that it matches the URL-encoded version
-    workout: encodeURIComponent(workout.replace(/\s+/g, "-")),
+    workout: encodeURIComponent(slugify(workout)),
   }));
 }
 

@@ -14,7 +14,7 @@ export default function Training() {
   }, []);
 
   const startWorkout = (workoutName) => {
-    const formattedWorkout = workoutName.replace(/\s+/g, "-"); // Convert spaces to hyphens
+    const formattedWorkout = workoutName.toLowerCase().replace(/\s+/g, "-"); 
     router.push(`/training/${encodeURIComponent(formattedWorkout)}`);
   };
   
