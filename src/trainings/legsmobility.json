@@ -1,0 +1,155 @@
+{
+    "Leg Joint Mobility": [
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Hip Circular Rotations",
+        "description": "Standing on one leg, rotate your other leg in a circular motion, making the circles gradually larger.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Deep Bodyweight Squats",
+        "description": "Stand with feet shoulder-width apart, squat down as low as comfortable while keeping heels on the ground.",
+        "complexity": 4
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Cossack Squats",
+        "description": "Start in a wide stance, shift weight to one leg and squat to that side while extending the other leg.",
+        "complexity": 6
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Seated Butterfly Stretch",
+        "description": "Sit with soles of feet together, knees out to sides, gently press knees toward floor.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Ankle Mobility Drill",
+        "description": "In a lunge position with front foot flat, gently push knee forward over toes without heel lifting.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Knee Circles",
+        "description": "Standing on one leg, bend the other slightly and rotate at the knee joint.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Figure-4 Stretch",
+        "description": "Lying on back, cross one ankle over opposite knee, pull uncrossed leg toward chest.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Standing Quad Stretch",
+        "description": "Standing on one leg, grab the other foot behind you, pulling heel toward buttock.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Dynamic Hamstring Stretch",
+        "description": "Standing, swing one leg forward with straight knee, keeping torso upright.",
+        "complexity": 4
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Standing Calf Raises and Drops",
+        "description": "Stand on edge of step with heels hanging off, raise up onto toes and slowly lower heels below step level.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Leg Swings",
+        "description": "Hold onto something for balance and swing each leg forward and backward, then side to side.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Ankle Circles",
+        "description": "Rotate each ankle clockwise and counterclockwise while seated or standing.",
+        "complexity": 1
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Side-Lying Leg Lifts",
+        "description": "Lie on your side and lift your top leg up and slightly back, engaging hip abductors.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Standing Forward Fold",
+        "description": "Bend forward from hips, letting arms hang toward floor, with a slight bend in knees.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Pigeon Pose",
+        "description": "From all fours, bring one knee forward and extend the other leg back, sinking hips down.",
+        "complexity": 5
+      }
+    ,
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Frog Stretch",
+        "description": "Get on all fours, spread knees wide apart with feet in line with knees, then lower chest toward the floor.",
+        "complexity": 5
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Hip CARs (Controlled Articular Rotations)",
+        "description": "Stand and rotate one leg in a full circle with control, focusing on moving the hip joint through its full range of motion.",
+        "complexity": 4
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Ankle CARs",
+        "description": "Seated with leg extended, trace the largest possible circle with your toes, moving only from the ankle.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Thread the Needle",
+        "description": "Lie on your back with feet flat on floor, cross one ankle over opposite thigh, then thread hands through gap and pull toward chest.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Happy Baby Pose",
+        "description": "Lie on your back, grab the outsides of your feet with hands, and gently pull knees toward armpits.",
+        "complexity": 3
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Lizard Pose",
+        "description": "From a low lunge, place the front foot to the outside of the hand, lower to forearms if possible.",
+        "complexity": 6
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Wall Ankle Mobilization",
+        "description": "Stand facing a wall, place one foot close to wall and bend knee to touch wall while keeping heel down.",
+        "complexity": 2
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Single-Leg Romanian Deadlift",
+        "description": "Balance on one leg, hinge at hips while extending other leg behind you, reaching fingertips toward ground.",
+        "complexity": 5
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Lateral Lunges",
+        "description": "Stand with wide stance, shift weight to one side bending that knee while keeping other leg straight.",
+        "complexity": 4
+      },
+      {
+        "type": "Leg Joint Mobility",
+        "name": "Adductor Rock",
+        "description": "In a wide stance, shift weight side to side while keeping both feet flat on the ground.",
+        "complexity": 3
+      }
+    ]
+  }
