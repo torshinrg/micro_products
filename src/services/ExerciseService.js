@@ -16,6 +16,7 @@ import splitsData from "../trainings/splits.json" assert { type: "json" };
 import sprintSpeedData from "../trainings/sprintSpeed.json" assert { type: "json" };
 import squatsData from "../trainings/squats.json" assert { type: "json" };
 import wristForearmData from "../trainings/wristForearm.json" assert { type: "json" };
+import legMobilityData from "../trainings/legMobility.json" assert { type: "json" };
 import { slugify } from "../utils/slugify";
 
 // Merge all training JSON objects into one
@@ -36,6 +37,7 @@ const allTrainings = {
   ...sprintSpeedData,
   ...squatsData,
   ...wristForearmData,
+  ...legMobilityData,
 };
 
 export class ExerciseService {
